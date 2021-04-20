@@ -1,0 +1,10 @@
+.TabBar {
+  background-color: #fafafa;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px 0px;
+  border-bottom: solid 1px #f0f0f0;
+  bottom: 0;
+  width: 100%;
+}
