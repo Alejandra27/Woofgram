@@ -1,0 +1,9 @@
+.recentCallItem {
+  padding: 0 0 0 20px;
+  background-color: #ecececb4;
+}
+.recentCallItem span {
+  font-size: 10px;
+  color: #474343b4;
+  font-weight: 600;
+}

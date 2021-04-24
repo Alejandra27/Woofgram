@@ -1,16 +1,18 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 interface TabBarIconProps {
   icon: string;
   iconName: string;
+  link: string;
 }
 
 const TabBarIcon = (props: TabBarIconProps) => {
   return (
-    <div>
+    <Link to={props.link}>
       <img className="iconButton" alt="Compose Button" src={props.icon} />
-      <p id="iconName">{props.iconName}</p>
-    </div>
+      <span id="iconName">{props.iconName}</span>
+    </Link>
   );
 };
 export default TabBarIcon;

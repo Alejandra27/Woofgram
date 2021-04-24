@@ -16,7 +16,7 @@ const RecentActivityCell = (props: contactsProps) => {
       <div className="type">
         <img className="typeIcon" alt="Compose Button" src={props.type} />
       </div>
-      <div className="picContainer2">
+      <div className="picContaine">
         <img
           className="perfilImage2"
           alt="Compose Button"
@@ -27,8 +27,8 @@ const RecentActivityCell = (props: contactsProps) => {
         <h2>{props.profileName}</h2>
         <p>{props.status}</p>
       </div>
-      {props.day}
-      <img className="perfilImage2" alt="Compose Button" src={props.info} />
+      <div className="recordDay">{props.day}</div>
+      <img className="infoIcon" alt="Compose Button" src={props.info} />
     </div>
   );
 };

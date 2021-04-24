@@ -1,0 +1,19 @@
+.type {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 5px 0 0;
+}
+
+.typeIcon {
+  height: 15px;
+  width: 15px;
+}
+.recordDay {
+  font-size: 10px;
+  padding: 12px 5px 0 0;
+}
+.infoIcon {
+  height: 22px;
+  width: 22px;
+  padding: 8px 18px 0 0px;
+}
