@@ -1,0 +1,37 @@
+.display {
+  /* display: initial; */
+  display: flex;
+  padding: 10px 0px 0px 20px;
+}
+
+.MessagePreview2 h2 {
+  margin: 0;
+  padding-top: 4px;
+
+  color: #3c3c3c;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+.MessagePreview2 p {
+  color: #636363;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-bottom: 10;
+}
+
+.perfilImage2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.MessagePreview2 {
+  margin: 0;
+  padding: 0px;
+  padding-left: 10px;
+  width: 100%;
+  border-bottom: solid 1px #f0f0f0;
+}

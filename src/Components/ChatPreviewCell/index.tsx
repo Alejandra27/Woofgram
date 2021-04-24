@@ -1,6 +1,8 @@
 import "./styles.css";
+import React from "react";
 
 interface ChatProps {
+  key: string;
   profilePicUrl: string;
   profileName: string;
   preview: string;
@@ -8,7 +10,9 @@ interface ChatProps {
   notification?: string;
 }
 
-const Chat = (props: ChatProps) => {
+type Component = (props: ChatProps) => React.ReactElement;
+
+const ChatPreviewCell: Component = (props: ChatProps) => {
   return (
     <div className="chat">
       <div className="picContainer">
@@ -33,4 +37,7 @@ const Chat = (props: ChatProps) => {
     </div>
   );
 };
-export default Chat;
+export default ChatPreviewCell;
+
+// Chat -> Component
+// Chat({props}) -> string
