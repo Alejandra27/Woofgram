@@ -4,6 +4,22 @@ import contactsActivity, {
   contactActivity
 } from "../../../data/contactsActivity";
 import RecentActivityCell from "../../Components/RecentActivityCell";
+import { ReactElement } from "react";
+import "./styles.css";
+
+// interface CenterBoxProps {
+//   children: ReactElement;
+// }
+
+// interface Whatever {}
+
+// const CenterBox = (props: CenterBoxProps) => {
+//   return <div className="centerBox">{props.children}</div>;
+// };
+
+// const YellowBox = (props: { children: ReactElement }) => {
+//   return <div className="yellowBox">{props.children}</div>;
+// };
 
 const ContactsList = (props) => {
   const contact = (a: contactActivity) => (
@@ -13,7 +29,7 @@ const ContactsList = (props) => {
   const contacts = contactsActivity.map(contact);
 
   return (
-    <div>
+    <>
       <NavigationBar
         title="Contacts"
         rightButton={
@@ -24,6 +40,7 @@ const ContactsList = (props) => {
           />
         }
       />
+
       <ButtonItem
         description="Find Dog Frieds"
         icon={
@@ -45,7 +62,7 @@ const ContactsList = (props) => {
         }
       />
       {contacts}
-    </div>
+    </>
   );
 };
 export default ContactsList;

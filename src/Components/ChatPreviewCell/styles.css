@@ -59,6 +59,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: cadetblue;
 }
 
 .time {
@@ -66,11 +67,13 @@
   min-width: 30px;
   color: #636363;
   flex: 1;
+  background-color: green;
 }
 
 #numerNotification {
   color: white;
   font-size: 12px;
+  background-color: peru;
 }
 
 .notificationIcon {
@@ -88,6 +91,7 @@
 .notificationGroup {
   justify-content: center;
   flex: 2;
-  display: flex;
+  display: table;
   justify-content: center;
+  /* flex-direction: column; */
 }

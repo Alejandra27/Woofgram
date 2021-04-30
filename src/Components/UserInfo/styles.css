@@ -3,10 +3,33 @@
   width: 70px;
   border-radius: 35px;
 }
+.userInfo {
+  margin-bottom: 10px;
+}
+
+/* .profileUser {
+  display: flex; 
+  justify-content: center;
+} */
 
 .profileUser {
-  background-color: green;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  padding: 20px 0 0px 0;
+}
+.userName {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #221e1e;
+}
+.phoneNumber {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding: 0px 0 20px 0;
+  color: #646060;
+  border-bottom: solid 1px #f0f0f0;
 }

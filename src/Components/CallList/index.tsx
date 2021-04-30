@@ -1,12 +1,12 @@
 import NavigationBar from "../NavigationBar";
-import CallsList, { callRecord } from "../../../data/callsRecord";
+import CallRecords, { callRecord } from "../../../data/callsRecord";
 import CallPreviewCell from "../../Components/CallPreviewCell";
 import RecentCallItem from "../RecentCallsItem";
 
 const CallList = (props) => {
   const callsRecord = (c: callRecord) => <CallPreviewCell key={c.id} {...c} />;
 
-  const calls = CallsList.map(callsRecord);
+  const calls = CallRecords.map(callsRecord);
 
   return (
     <>

@@ -8,7 +8,7 @@ export interface callRecord {
   info: string;
 }
 
-const CallsList: Array<callRecord> = [
+const CallRecords: Array<callRecord> = [
   {
     id: "1",
     type:
@@ -131,4 +131,4 @@ const CallsList: Array<callRecord> = [
   }
 ];
 
-export default CallsList;
+export default CallRecords;

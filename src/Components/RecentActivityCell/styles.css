@@ -2,6 +2,7 @@
   /* display: initial; */
   display: flex;
   padding: 10px 0px 0px 20px;
+  /* background-color: red; */
 }
 
 .MessagePreview2 h2 {

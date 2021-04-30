@@ -27,8 +27,9 @@ const ChatPreviewCell: Component = (props: ChatProps) => {
         <p>{props.preview}</p>
       </div>
       <div className="metaData">
-        <span className="time">{props.time}</span>
+        {/* <span className="time">{props.time}</span> */}
         <div className="notificationGroup">
+          <span className="time">{props.time}</span>
           <div className="notificationIcon">
             <span id="numerNotification">{props.notification}</span>
           </div>
