@@ -5,7 +5,7 @@ import ChatList from "./Components/ChatList";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ContactsList from "./Components/ContactsList";
 import CallList from "./Components/CallList";
-import Settings from "./Components/Settings";
+import SettingsList from "./Components/SettingsList";
 
 export default function App() {
   return (
@@ -23,7 +23,7 @@ export default function App() {
             <CallList />
           </Route>
           <Route path="/settings">
-            <Settings />
+            <SettingsList />
           </Route>
         </Switch>
       </div>
